@@ -1,0 +1,19 @@
+<div class="result">
+  <h3>The Message: </h3>
+  <p> <%= spamMessage %></p>
+  <p>is...</p>
+  <h1> <%= spamResults %> </h1>
+
+
+  <form action="/result" method="post">
+    <label>If you know, was this correct?:</label>
+    <select name="result" id="cars">
+      <option name="spam" value="spam&#9<%= spamMessage %>">Yes, This was a SPAM</option>
+      <option name="ham" value="ham&#9<%= spamMessage %>">No, This was not a SPAM</option>
+      <option name="neither" value="">I'm not sure!</option>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</div>
