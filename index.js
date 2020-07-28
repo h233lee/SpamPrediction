@@ -11,6 +11,8 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
+app.use(express.static(__dirname + '/public'))
+
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
@@ -48,6 +50,6 @@ app.post("/result", function(req, res) {
 
 
 
-app.listen(5000, function() {
+app.listen(3000, function() {
   console.log("server started");
 });
