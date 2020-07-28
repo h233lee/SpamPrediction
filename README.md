@@ -7,10 +7,10 @@ It is recommended to use short messages such as SMS texts or e-mail titles to te
 It is also important to note that there is a feedback option which appends your results into the list of examples *(SMSSpamCollection)* and helps the model to predict more accurately.
 
 ## Challenges:
-I wanted to host this using EC2, but I was on a budget and the free-tier AWS provided kept maxing out on CPU memory. I decided that it is best to let users (who are interested) pull this repo and try it out themselves.
+I wanted to host this using EC2, but I was on a budget and the free-tier AWS provided kept maxing out on CPU memory. I decided that it is best to let users pull this repo and try it out themselves.
 
 
-###Make sure to install the necessary packages:
+### Make sure to install the necessary packages:
 
 ```shell
 $ pip3 install pandas
