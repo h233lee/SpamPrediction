@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #SPAM Prediction
 
 This is a simple app created with HTML, NodeJS and Python that utilizes the **Multinomial Naive Bayes** methodology to predict Spam.
@@ -28,3 +29,6 @@ $ node index.js
 ```
 
 then enter **[http://localhost:3000/](http://localhost:3000/)**
+=======
+# This project utilizes Multinomial Naive Bayes methodology to predict Spam from SMS texts or Email titles
+>>>>>>> 084a634ce70783480a0a52b28c11262320163e99
