@@ -1,19 +1,39 @@
-h1{
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+form {
   text-align: center;
 }
 
-h3{
+button {
   text-align: center;
 }
 
-p{
-  text-align: center;
+body {
+  background-color: #d54062;
+  top: auto;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-form{
-  text-align: center;
+html,
+body {
+  height: 100%;
 }
 
-button{
-  text-align: center;
+html {
+  display: table;
+  margin: auto;
 }
